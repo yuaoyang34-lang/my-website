@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 修改此处：网页浏览器标签标题 -->
+  <title>Your Brand Name — Boutique & Exclusives</title>
+  <!-- 引入轻奢衬线体与现代无衬线字体 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 修改此处：顶部通栏促销/公告文字 -->
+  <div class="announcement-bar">
+    ♡ New Exclusives Are Here — Discover Our Latest Collection ♡
+  </div>
+
+  <!-- 顶部导航栏 -->
+  <header class="navbar">
+    <!-- 修改此处：你的品牌名称或替换为 <img src="images/logo.png" alt="Logo" height="40"> -->
+    <a href="index.html" class="brand-logo">YOUR BRAND NAME</a>
+
+    <ul class="nav-links">
+      <!-- 修改此处：导航菜单名称与跳转链接 -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Available</a></li>
+      <li><a href="shop.html#special">Special Order</a></li>
+      <li><a href="process.html">Process & FAQ</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="about.html#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- 1. 首屏大图 Banner -->
+  <!-- 修改此处：将 url(...) 替换为你的大图路径，例如 url('images/hero-banner.jpg') -->
+  <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=1600&q=80');">
+    <div class="hero-content">
+      <!-- 修改此处：首屏主标语 -->
+      <h1>Tiny. Timeless. Unforgettable.</h1>
+      <!-- 修改此处：首屏按钮文字 -->
+      <a href="shop.html" class="btn-primary">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- 2. 四列精选展示（仿照原站 NEW PAWS IN TOWN） -->
+  <section class="section">
+    <div class="section-header">
+      <!-- 修改此处：小标题与主标题 -->
+      <span class="section-subtitle">New Arrivals</span>
+      <h2 class="section-title">Featured Selection</h2>
+    </div>
+
+    <div class="grid-4">
+      <!-- 卡片 1：修改图片路径、名称、价格 -->
+      <a href="shop.html" class="product-card">
+        <img src="https://images.unsplash.com/photo-1591160690555-5debfba289f0?auto=format&fit=crop&w=600&q=80" alt="Item 1">
+        <h3 class="product-name">Item Name One</h3>
+        <p class="product-price">$4,800.00</p>
+      </a>
+
+      <!-- 卡片 2：修改图片路径、名称、价格 -->
+      <a href="shop.html" class="product-card">
+        <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=600&q=80" alt="Item 2">
+        <h3 class="product-name">Item Name Two</h3>
+        <p class="product-price">$5,200.00</p>
+      </a>
+
+      <!-- 卡片 3：修改图片路径、名称、价格 -->
+      <a href="shop.html" class="product-card">
+        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=600&q=80" alt="Item 3">
+        <h3 class="product-name">Item Name Three</h3>
+        <p class="product-price">$5,500.00</p>
+      </a>
+
+      <!-- 卡片 4：修改图片路径、名称、价格 -->
+      <a href="shop.html" class="product-card">
+        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=600&q=80" alt="Item 4">
+        <h3 class="product-name">Item Name Four</h3>
+        <p class="product-price">$4,500.00</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- 3. 三大核心分类（仿照原站 Shop Our World） -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="section-header">
+      <span class="section-subtitle">Your Brand World</span>
+      <h2 class="section-title">Shop Our World</h2>
+    </div>
+
+    <div class="grid-3">
+      <!-- 分类卡片 1 -->
+      <a href="shop.html" class="category-card">
+        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=800&q=80" alt="Category 1">
+        <div class="category-info">
+          <h3>Category One</h3>
+          <span class="category-link">Shop Now →</span>
+        </div>
+      </a>
+
+      <!-- 分类卡片 2 -->
+      <a href="shop.html" class="category-card">
+        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=800&q=80" alt="Category 2">
+        <div class="category-info">
+          <h3>Category Two</h3>
+          <span class="category-link">Discover →</span>
+        </div>
+      </a>
+
+      <!-- 分类卡片 3 -->
+      <a href="shop.html#special" class="category-card">
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=800&q=80" alt="Special Order">
+        <div class="category-info">
+          <h3>Special Order</h3>
+          <span class="category-link">Custom Request →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- 4. 三项核心服务与保障条 -->
+  <section class="features-strip">
+    <div class="section" style="padding: 0;">
+      <div class="grid-3">
+        <!-- 修改此处：卖点 1 -->
+        <div class="feature-box">
+          <div class="feature-icon">♡</div>
+          <h3>Flexible Financing</h3>
+          <p>Flexible payment options designed to make your experience effortless and transparent.</p>
+          <a href="process.html" class="btn-outline">Learn More</a>
+        </div>
+
+        <!-- 修改此处：卖点 2 -->
+        <div class="feature-box">
+          <div class="feature-icon">✦</div>
+          <h3>Quality Guarantee</h3>
+          <p>Thoughtful care and strict standards to give you complete confidence and peace of mind.</p>
+          <a href="process.html" class="btn-outline">View Details</a>
+        </div>
+
+        <!-- 修改此处：卖点 3 -->
+        <div class="feature-box">
+          <div class="feature-icon">♡</div>
+          <h3>Dedicated Support</h3>
+          <p>Helpful guidance and personal assistance for a smooth, comfortable experience.</p>
+          <a href="process.html" class="btn-outline">Explore</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 品牌背书图文分栏（仿照原站 Celebrity Clients） -->
+  <section class="section">
+    <div class="split-section">
+      <div class="split-image">
+        <!-- 修改此处：品牌故事或客户展示图 -->
+        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=900&q=80" alt="Brand Story">
+      </div>
+      <div class="split-text">
+        <span class="section-subtitle">Trusted Worldwide</span>
+        <!-- 修改此处：品牌故事标题与正文 -->
+        <h2>Trusted by Discerning Clients</h2>
+        <p>
+          We have become a trusted name for clients seeking exceptional quality, personalized service, and attention to every detail. Whether it is your first inquiry or a bespoke request, our team ensures an unforgettable experience.
+        </p>
+        <a href="about.html" class="btn-primary">Discover More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. VIP 订阅列表 -->
+  <section class="section" style="padding-top: 20px;">
+    <div class="newsletter-box">
+      <span class="section-subtitle">Join Our Little World</span>
+      <h2 class="section-title">The Private List</h2>
+      <p style="color: var(--text-muted); margin-top: 10px;">Be first to discover new arrivals, private announcements, and exclusive opportunities.</p>
+      
+      <div class="newsletter-perks">
+        <span>♡ <strong>FIRST LOOK:</strong> Upcoming arrivals</span>
+        <span>✦ <strong>EXCLUSIVE:</strong> Private updates</span>
+        <span>♡ <strong>SPECIAL:</strong> Rare opportunities</span>
+      </div>
+
+      <!-- 提示：静态网页表单可免费接入 Formspree.io 接收客户邮箱 -->
+      <form class="newsletter-form" action="#" method="POST">
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit" class="btn-primary">Join List</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- 页脚联系信息 -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h4>We're Here for You</h4>
+        <p>Personalized assistance and trusted guidance — we're always happy to help you find the perfect match.</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <!-- 修改此处：营业时间 -->
+        <p>Monday – Friday: 9 am – 8 pm</p>
+        <p>Saturday – Sunday: 10 am – 6 pm</p>
+      </div>
+      <div>
+        <h4>Call or Text</h4>
+        <!-- 修改此处：电话与邮箱 -->
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Email: hello@yourdomain.com</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="shop.html">Available Collection</a></li>
+          <li><a href="process.html">Process & Guarantee</a></li>
+          <li><a href="about.html">About Us & Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <!-- 修改此处：版权年份与公司名 -->
+      © 2026 Your Brand Name Inc. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
